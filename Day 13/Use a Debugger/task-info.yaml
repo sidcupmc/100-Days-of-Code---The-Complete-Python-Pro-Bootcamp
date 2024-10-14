@@ -6,9 +6,9 @@ files:
   - name: solution.py
     visible: true
     learner_created: false
-  - name: my_module.py
+  - name: maths.py
     visible: true
-    learner_created: true
-status: Solved
+    learner_created: false
+status: Unchecked
 record: -1
 post_submission_on_open: true
