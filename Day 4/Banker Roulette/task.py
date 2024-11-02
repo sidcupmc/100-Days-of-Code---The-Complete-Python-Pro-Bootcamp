@@ -8,3 +8,9 @@ print(friends[random_number])
 #alternatively you can just use the following:
 
 print(random.choice(friends))
+
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+
+dirty_dozen = [fruits, vegetables]
+print(dirty_dozen[0][0])
