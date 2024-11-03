@@ -30,7 +30,7 @@ scissors
       (____)
 ---.__(___)
 '''
-choices = [rock, paper, scissors]
+game_images = [rock, paper, scissors]
 
 # function to get user input. Will only allow valid entries
 def get_user_int():
@@ -54,7 +54,7 @@ def choose_winner(user, computer):
         return "You lose!\n"
 
 def play_again():
-    try_again = input("Do you wish to try again? Y for Yes, Any key for No\n")
+    try_again = input("Do you wish to try again? Y for Yes, Any other key for No\n")
     if try_again == "Y" or try_again == "y":
         return True
     else:
@@ -65,15 +65,15 @@ while continue_game:
 
     user_int = get_user_int()
 
-    user_choice = choices[user_int]
+    user_game_image = game_images[user_int]
 
     computer_int = random.randint(0,2)
     #print(computer_player_int)
-    computer_player_choice = choices[computer_int]
+    computer_game_image = game_images[computer_int]
 
-    print("You chose " + user_choice)
+    print("You chose " + user_game_image)
 
-    print("The computer chose " + computer_player_choice)
+    print("The computer chose " + computer_game_image)
 
     print(choose_winner(user_int, computer_int))
 
