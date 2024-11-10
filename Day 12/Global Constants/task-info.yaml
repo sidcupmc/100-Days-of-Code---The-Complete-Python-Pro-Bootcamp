@@ -3,10 +3,10 @@ files:
   - name: solution.py
     visible: true
     learner_created: false
-  - name: task.py
+  - name: solution.py
     visible: true
     learner_created: true
-  - name: solution.py
+  - name: task.py
     visible: true
     learner_created: true
 status: Unchecked
