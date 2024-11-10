@@ -1,10 +1,10 @@
 type: theory
 custom_name: If Else
 files:
-  - name: solution.py
+  - name: task.py
     visible: true
     learner_created: true
-  - name: task.py
+  - name: solution.py
     visible: true
     learner_created: true
 status: Unchecked
