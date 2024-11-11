@@ -28,7 +28,7 @@ random.shuffle(password_list)
 print(password_list)
 
 password = ' '.join(password_list)
-print(password)
+print(f"Your password = {password}")
 
 
 
