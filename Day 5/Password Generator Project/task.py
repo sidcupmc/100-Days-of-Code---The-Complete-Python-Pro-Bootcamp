@@ -31,14 +31,10 @@ print(symbols_list)
 ordered_password_list = letters_list + number_list + symbols_list
 print(ordered_password_list)
 
-random_password_list = ['empty'] * ordered_password_list.__len__()
-print(random_password_list)
+random.shuffle(ordered_password_list)
+print(ordered_password_list)
 
-for index in range(0,ordered_password_list.__len__()):
 
-    random_number = random.randint(0,random_password_list.__len__())
-
-    print(ordered_password_list[index])
 
 
 
