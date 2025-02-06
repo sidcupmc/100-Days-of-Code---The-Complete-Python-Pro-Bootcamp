@@ -5,7 +5,7 @@ word_list = ["aardvark", "baboon", "camel"]
 
 chosen_word = random.choice(word_list)
 print(chosen_word)
-lives = 2
+lives = 6
 
 
 # TODO-1: Create a "placeholder" with the same number of blanks as the chosen_word
@@ -32,7 +32,7 @@ while display != chosen_word and lives > 0:
         lives -= 1
 
     print(display)
-    print(lives.__str__())
+    print('You have ' + lives.__str__() + ' lives remaining')
 
 if lives == 0:
     print("You've run out of lives!")
