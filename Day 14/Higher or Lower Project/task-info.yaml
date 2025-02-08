@@ -6,10 +6,10 @@ files:
   - name: art.py
     visible: true
     learner_created: true
-  - name: game_data.py
+  - name: main.py
     visible: true
     learner_created: true
-  - name: main.py
+  - name: game_data.py
     visible: true
     learner_created: true
 status: Unchecked
